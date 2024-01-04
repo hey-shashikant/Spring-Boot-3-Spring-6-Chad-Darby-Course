@@ -1,0 +1,17 @@
+package com.cyborg.springcodedemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+//@SpringBootApplication(
+//		scanBasePackages = {"com.cyborg.springcodedemo",
+//		"com.cyborg.util"}
+//)
+@SpringBootApplication
+public class SpringcodedemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringcodedemoApplication.class, args);
+	}
+
+}
